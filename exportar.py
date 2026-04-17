@@ -7,7 +7,7 @@ def exportar_pdf(estudiantes):
     print("Generando PDF...")
 
     # Tiempo límite para generar el PDF
-    tiempo_limite = 0.2  # segundos
+    tiempo_limite = 0.3  # segundos
 
     # Tiempo que tarda según la cantidad de estudiantes
     tiempo_generacion = len(estudiantes) * 0.01
